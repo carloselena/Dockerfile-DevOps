@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: app
+    image: python-server:1.0
+    ports:
+      - "8000:8000"
